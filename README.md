@@ -1,5 +1,5 @@
 # excel_to_oracle
-excel报表导入oracle数据库
+各类业务应用软件输出的excel报表，通过解析配置映射库表，输出SQL或导入数据库
 - 定义excel报表结构解析
 - 插入oracle
 - 输出SQL
