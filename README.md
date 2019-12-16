@@ -1,5 +1,5 @@
 # excel_to_oracle
-- excel报表导入oracle数据库
+excel报表导入oracle数据库
 - 定义excel报表结构解析
 - 插入oracle
 - 输出SQL
