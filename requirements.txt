@@ -1,0 +1,7 @@
+xlrd
+glob
+pandas
+tqdm
+cx_Oracle
+getpass
+yaml
