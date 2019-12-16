@@ -2,6 +2,6 @@ xlrd
 glob
 pandas
 tqdm
-cx_Oracle
+cx-Oracle
 getpass
-yaml
+pyyaml
