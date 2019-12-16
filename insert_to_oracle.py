@@ -1,4 +1,9 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# @Date    : 2019-11-22 14:47:07
+# @Author  : Joe Gao (jeusgao@163.com)
+# @Link    : https://www.jianshu.com/u/3b77f85cc918
+# @Version : $Id$
 
 import xlrd
 import glob
@@ -116,7 +121,6 @@ for dic in CFG:
             cur.execute(_sql)
     conn.commit()
 
-# out_sql = out_sql.replace('NONE', "''")
 with open(f'{OUTPUT_PATH}/insert.sql', 'w') as f:
     f.write(f'{out_sql}')
 pt.close_connection(conn)
