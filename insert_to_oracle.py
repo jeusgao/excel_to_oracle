@@ -27,13 +27,15 @@ OUTPUT_PATH = 'output'
 fn_rangelog = 'out_of_range.log'
 fn_missinglog = 'sheet_missing.log'
 
-if os.path.exists(fn_rangelog):
-    os.remove(fn_rangelog)
-if os.path.exists(fn_missinglog):
-    os.remove(fn_missinglog)
-if os.path.exists(OUTPUT_PATH):
-    shutil.rmtree(OUTPUT_PATH)
-os.mkdir(OUTPUT_PATH)
+# if os.path.exists(fn_rangelog):
+#     os.remove(fn_rangelog)
+# if os.path.exists(fn_missinglog):
+#     os.remove(fn_missinglog)
+# if os.path.exists(OUTPUT_PATH):
+#     shutil.rmtree(OUTPUT_PATH)
+
+if not os.path.exists(OUTPUT_PATH):
+    os.mkdir(OUTPUT_PATH)
 out_sql = ''
 
 
