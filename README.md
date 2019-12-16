@@ -1,5 +1,9 @@
 # excel_to_oracle
-- Insert excel spreadsheet into oracle database
-- convert excel to sql
-- 自定义excel报表映射数据库
-- excel报表导入数据库(oracle)
+- 工具，excel报表导入oracle数据库
+- 定义excel报表结构解析
+- 插入oracle
+- 输出SQL
+
+
+## Reference:
+https://github.com/cwade/pandas_oracle
