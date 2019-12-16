@@ -5,6 +5,7 @@
 - 输出SQL
 
 -- 小工具
+-- python3.6.X
 
 ## Reference:
 https://github.com/cwade/pandas_oracle

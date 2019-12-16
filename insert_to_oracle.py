@@ -50,7 +50,6 @@ def get_cell(tag, sheet, r, c):
     except:
         with open(fn_rangelog, 'a') as f:
             f.write(f'Out of range: {tag} [{r}, {c}]\n')
-        # print(f'Out of range: {tag}[{r}, {c}]')
         tmp = ''
     return tmp
 
